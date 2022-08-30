@@ -1,0 +1,52 @@
+/* index page */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(162, 145, 118);
+  padding: 0;
+  margin: 0;
+}
+.mainBody {
+  background-color: rgb(220, 207, 189);
+  width: fit-content;
+  margin: auto;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+#mainHeader {
+  background-color: rgb(84, 74, 56);
+  margin-top: 40px;
+  color: rgb(220, 207, 189);
+}
+
+h2 {
+  font-size: 28px;
+  color: rgb(84, 74, 56);
+}
+h3 {
+  font-size: 24px;
+  color: rgb(84, 74, 56);
+}
+
+.recipeCatalog img {
+  width: 200px;
+}
+.recipeCatalog {
+  display: flex;
+}
+.recipeCatalog a {
+  text-decoration-line: none;
+}
+.picBox {
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.picBox a {
+  font-weight: bold;
+  color: rgb(84, 74, 56);
+  font-size: 20px;
+}
+/* recipe pages */

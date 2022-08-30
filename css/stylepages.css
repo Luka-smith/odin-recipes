@@ -1,0 +1,47 @@
+.bottomLinks a {
+  text-decoration-line: none;
+  /* margin-right: 10px; */
+  color: rgb(220, 207, 189);
+  font-weight: bold;
+  font-size: 18px;
+}
+.bottomLinks {
+  display: flex;
+  background-color: rgb(84, 74, 56);
+  margin: -20px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.bottomLinks .borderRight {
+  border-right: 2px solid rgb(220, 207, 189);
+  padding-right: 10px;
+}
+
+.picAndDescr img {
+  height: 250px;
+  width: auto;
+}
+.imageBox {
+  margin: 0;
+  padding: 0;
+}
+.picAndDescr {
+  display: flex;
+  flex-direction: row;
+}
+.mainBody {
+  width: 50%;
+  padding: 20px;
+}
+.stepBox {
+  margin-bottom: 50px;
+}
+.descrParaBox {
+  padding: 0 20px;
+  margin-bottom: 4px;
+  background-color: rgb(162, 145, 118);
+  color: rgb(251, 246, 239);
+}
+.descrParaBox h2 {
+  margin-top: 15px;
+}
