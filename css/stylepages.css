@@ -1,3 +1,7 @@
+.mainBody {
+  width: 50%;
+  padding: 20px;
+}
 .bottomLinks a {
   text-decoration-line: none;
   /* margin-right: 10px; */
@@ -12,9 +16,9 @@
   padding: 10px;
   justify-content: space-between;
 }
-.bottomLinks .borderRight {
-  border-right: 2px solid rgb(220, 207, 189);
-  padding-right: 10px;
+.bottomLinks .space {
+  background-color: rgb(220, 207, 189);
+  width: 3px;
 }
 
 .picAndDescr img {
@@ -29,10 +33,7 @@
   display: flex;
   flex-direction: row;
 }
-.mainBody {
-  width: 50%;
-  padding: 20px;
-}
+
 .stepBox {
   margin-bottom: 50px;
 }
@@ -41,6 +42,7 @@
   margin-bottom: 4px;
   background-color: rgb(162, 145, 118);
   color: rgb(251, 246, 239);
+  width: 100%;
 }
 .descrParaBox h2 {
   margin-top: 15px;

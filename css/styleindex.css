@@ -8,6 +8,7 @@ body {
 .mainBody {
   background-color: rgb(220, 207, 189);
   width: fit-content;
+
   margin: auto;
 }
 h1 {
